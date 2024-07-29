@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "cython>=3.0.10",
+    "numpy>=1.24.4",
+    "setuptools>=69.2.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal_degradation"
+version = "1.0"
